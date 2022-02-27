@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RequestMapping("/v1")
-@CrossOrigin("https://emp-front-p.vercel.app/")
+@CrossOrigin("https://emp-front-p.vercel.app")
 @RestController
 public class API {
 
