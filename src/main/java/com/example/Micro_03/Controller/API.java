@@ -38,5 +38,10 @@ public class API {
     public Student getById(@PathVariable("id") Integer id) {
         return sService.getStudentByID(id);
     }
+    
+    @GetMapping("/checkServer")
+    public String getApplicationStatus(){
+         return "up";
+    }
 
 }
